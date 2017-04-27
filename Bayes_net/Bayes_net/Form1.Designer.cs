@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.Save = new System.Windows.Forms.GroupBox();
+            this.ADD = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // Save
@@ -40,22 +41,32 @@
             this.Save.TabStop = false;
             this.Save.Text = "groupBox1";
             // 
+            // ADD
+            // 
+            this.ADD.Location = new System.Drawing.Point(1084, 25);
+            this.ADD.Name = "ADD";
+            this.ADD.Size = new System.Drawing.Size(100, 20);
+            this.ADD.TabIndex = 1;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1182, 749);
+            this.Controls.Add(this.ADD);
             this.Controls.Add(this.Save);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.GroupBox Save;
+        private System.Windows.Forms.TextBox ADD;
     }
 }
 
