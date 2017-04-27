@@ -1,0 +1,9 @@
+D:\programs\GIT_C#\Bayes_net\Bayes_net\Bayes_net\obj\Debug\Bayes_net.csprojResolveAssemblyReference.cache
+D:\programs\GIT_C#\Bayes_net\Bayes_net\Bayes_net\obj\Debug\Bayes_net.Form1.resources
+D:\programs\GIT_C#\Bayes_net\Bayes_net\Bayes_net\obj\Debug\Bayes_net.Properties.Resources.resources
+D:\programs\GIT_C#\Bayes_net\Bayes_net\Bayes_net\obj\Debug\Bayes_net.csproj.GenerateResource.Cache
+D:\programs\GIT_C#\Bayes_net\Bayes_net\Bayes_net\bin\Debug\Bayes_net.exe.config
+D:\programs\GIT_C#\Bayes_net\Bayes_net\Bayes_net\bin\Debug\Bayes_net.exe
+D:\programs\GIT_C#\Bayes_net\Bayes_net\Bayes_net\bin\Debug\Bayes_net.pdb
+D:\programs\GIT_C#\Bayes_net\Bayes_net\Bayes_net\obj\Debug\Bayes_net.exe
+D:\programs\GIT_C#\Bayes_net\Bayes_net\Bayes_net\obj\Debug\Bayes_net.pdb
