@@ -23,6 +23,7 @@ namespace Bayes_net
         public Form1()
         {
             InitializeComponent();
+
             Neuron[,] fistNeu;
             fistNeu =  new Neuron[30, 30]; ;
             for (int i = 0; i < 30; i++)
@@ -30,7 +31,7 @@ namespace Bayes_net
                     fistNeu[i, j] = new Neuron();
                     
 
-                int x = 7, y = 20;
+                int x = 6, y = 20;
             for (int j = 0; j < 30; j++)
             {
                 for (int i = 0; i < 30; i++)
@@ -44,7 +45,7 @@ namespace Bayes_net
                     this.Save.Controls.Add(tb[i, j]);
                     x += 25;
                 }
-                x = 7; y += 20;
+                x = 6; y += 20;
             }
             wNeuron fistAdd = new wNeuron(fistNeu);
             ADD.Text = fistAdd.Output();

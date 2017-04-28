@@ -37,12 +37,12 @@ namespace Bayes_net
         {
             int k = ner.Length;
             ADD = 0;
-            for (int i = 0; i < 30; i++) // <WARRNING>  !!!!!!!!!!!!!
-                for (int j = 0; j < 30; j++)// <WARRNING>  !!!!!!!!!!!!!
+            for (int i = 0; i < 30; i++)     // <WARRNING>  !!!!!!!!!!!!!
+                for (int j = 0; j < 30; j++) // <WARRNING>  !!!!!!!!!!!!!
                     ADD += ner[i, j].weight;
            
         }
-        public string Output()
+        public new string Output()
         { return Convert.ToString(ADD); }
     }
 }
